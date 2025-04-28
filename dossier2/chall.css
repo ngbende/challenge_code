@@ -1,0 +1,322 @@
+*{
+  margin: 0;
+  padding: 0; 
+}
+
+
+
+body{
+    background-image: url(assets/page-bg.jpg);
+}
+
+header{
+    display: flex;
+   flex-direction: column;
+   float: left;
+   background-color:#ff002b67;
+   position: absolute;
+   
+   /* width: 20%; */
+   text-align: center;
+   align-items: center;
+  margin:0 60px;
+  position: fixed;
+ 
+}
+
+h1{
+    padding-top: 30px;
+}
+header img{
+ margin-top: 50px;
+    height: 20vh;
+    width:30%;
+    background-size: center cover;
+    border-radius:50%;
+}
+ header p {
+   padding: 10px;
+ }
+ hr{
+    width: 20vw;
+ }
+header nav {
+    display: flex;
+ 
+}
+header nav a  {
+   text-decoration: none;
+   list-style: none;
+   color: white;
+ 
+}
+header nav ul {
+    list-style: none;
+  
+}
+header nav li {
+    gap: 50px; margin-bottom: 30px;
+     padding: 20px;
+}
+
+main{
+    float: right;
+    width:80%;
+    display:flex ;
+    flex-direction: column;
+}
+.about-section{
+ display: flex;
+ width:auto;
+ flex-direction: column;
+ padding-bottom: 20px;
+}
+
+.about-section img {
+width:50%;
+}
+.titre-about{
+  
+    height:30vh;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+.text-about{
+    width: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+   margin-left: 100px;
+   
+}
+
+.p-about{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 40px; 
+    gap: 30px;
+    color: white;
+}
+
+
+.separation{
+    width:85%;
+ margin: 0 100px;
+
+}
+
+.sed-section{
+    width: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+   margin-left: 100px;
+   
+}
+
+.sed-section div {
+    width:50%;
+    height:30vh;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sed-section img {
+    width: 50%;
+}
+
+
+
+.what-section{
+    width: auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+   margin-left: 90px;
+   flex-wrap: wrap;
+   margin-bottom: 20px;
+}
+
+.what-section div  {
+  
+    padding-right: 20px;
+    gap: 30px;
+  
+   
+}
+
+.what-section div img {
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.what-section div h4{
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.what-section div p{
+    justify-content: center;
+    margin-top: 10px;
+    padding: 20px;
+}
+.what-text1{
+     width:45%;
+     height: 50vh;
+     flex-direction: column;
+  margin-right: 20px;
+   background-color: rgba(128, 128, 128, 0.247);
+   /* padding: 30px; */
+   margin-bottom: 20px;
+}
+
+
+
+.what-text2{
+    width:45%;
+    height: 50vh;
+    flex-direction: column;
+ margin-right: 20px;
+  background-color: rgba(128, 128, 128, 0.247);
+  /* padding: 30px; */
+ margin-bottom: 20px;
+}
+
+.what-text3{
+    width:45%;
+     height: 50vh;
+     flex-direction: column;
+  margin-right: 20px;
+   background-color: rgba(128, 128, 128, 0.247);
+   /* padding: 30px; */
+ 
+}
+.what-text4 {
+    width:45%;
+    height: 50vh;
+    flex-direction: column;
+ margin-right: 20px;
+  background-color: rgba(128, 128, 128, 0.247);
+  /* padding: 30px; */
+ 
+}
+
+.work-section{
+    padding: auto;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.text-work {
+    width: 100%; 
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.image-work{
+    display: flex;
+    flex-direction:row;
+    width:50%; 
+  margin-left:90px;
+  margin-bottom: 30px;
+  height:50vh;
+}
+
+.image-work img{
+    text-align: center;
+    align-items: center;
+   width:80%;
+  margin-left: 40px;
+  height: auto;
+}
+
+footer{
+ float: right;
+ width:80%;
+ height:90vh;
+}
+footer h3,p{
+  text-align: center;
+  align-items: center;
+ padding: 10px;
+ color: white;
+}
+footer form{
+    display: flex;
+    flex-direction: row;
+     text-align: center;
+     align-items: center;
+    margin-top: 30px;
+  width:100% ;
+  flex-wrap: wrap;
+}
+
+footer form .noms  {
+    width:100%;
+     flex-direction: row;
+     margin-left: 35px;
+     margin-bottom: 20px;
+     text-align: center;
+     align-items: center;
+}
+
+footer form .email-subject{
+    width:100%;
+    flex-direction: row;
+    margin-left: 35px;
+    margin-bottom: 20px;
+}
+
+#first-name,
+#last-name{
+    padding: 10px;
+   padding-left: 250px;
+   background-color: rgba(128, 128, 128, 0.288);
+   color: rgb(255, 255, 255);
+ 
+}
+#emaill{
+    padding: 10px;
+  width: 82%;
+   background-color: rgba(128, 128, 128, 0.288);
+   color: rgb(255, 255, 255);
+
+ 
+}
+
+footer form .message-envoyer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  margin: 0 auto;
+  width:100%;
+}
+
+#message{
+    padding: 100px;
+   width: 62%;
+ margin-left: 40px;
+ background-color: rgba(128, 128, 128, 0.288);
+ margin-bottom: 20px;
+}
+
+#envoyer{
+   padding: 15px;
+   width: 15%;
+}
+

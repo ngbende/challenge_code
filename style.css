@@ -1,0 +1,46 @@
+*{
+
+}
+
+
+
+table{
+   
+    caption{
+        padding:20px;
+        color: #d0efdf;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    border-collapse: collapse;
+   
+    text-align: center;
+    align-items: center;
+    width:80%;
+justify-content: center;
+margin-left:150px;
+height:60vh;
+border-color: #d0efdf;
+    }
+
+  
+
+
+    th{ 
+     background:#76d27d;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     color:white;
+    }
+
+    td{ 
+    justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+
+.case-grise{
+    background:#f2f2f2;
+}
